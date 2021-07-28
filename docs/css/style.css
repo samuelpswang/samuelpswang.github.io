@@ -64,6 +64,10 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+    color: var(--sans-serif-font);
+}
+
 a:hover{
     background-color: var(--text-color);
     color: white;
