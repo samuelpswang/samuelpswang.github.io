@@ -66,17 +66,22 @@ a {
     margin-right: 6px;
     padding-left: 2px;
     padding-right: 2px;
+    line-height: 1.5;
     text-decoration: none;
     color: var(--sans-serif-font);
 }
 
 a:visited {
-    color: var(--sans-serif-font);
+    font-family: var(--sans-serif-font);
 }
 
 a:hover{
     background-color: var(--text-color);
     color: white;
+}
+
+.project__br {
+    display: none;
 }
 
 footer {
@@ -130,6 +135,15 @@ footer {
     a:first-child {
         margin-left: 0;
         padding-left: 0;
+    }
+
+    .project__br {
+        display: inline;
+    }
+
+    .project__linestart {
+        margin-left: 0px;
+        padding-left: 0px;
     }
 
     .footer__text {
