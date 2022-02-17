@@ -8,11 +8,12 @@
 body {
     /* background properties */
     background-color: var(--background-color);
-    text-align: center;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
     /* font properties */
     font-family: var(--monospace-font);
     color: var(--text-color);
-    margin: 8px 0 8px 0;
 }
 
 header {
@@ -23,7 +24,7 @@ header {
 
 .header__center-emoji {
     font-size: 50px;
-    margin-top: 20vh;
+    margin-top: 15vh;
     margin-bottom: 16px;
 }
 
@@ -46,7 +47,7 @@ h1 {
 
 main {
     margin-top: 32px;
-    margin-bottom: 96px;
+    margin-bottom: 84px;
     margin-left: 8px;
     margin-right: 8px;
 }
@@ -57,6 +58,11 @@ h2 {
 }
 
 div {
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 16px;
     margin-top: 0;
 }
 
@@ -86,7 +92,7 @@ a:hover{
 
 footer {
     padding: 16px 0 32px 0;
-    width: 100%;
+    margin: auto;
 }
 
 .footer__text {
@@ -96,8 +102,10 @@ footer {
 
 @media only screen and (min-height: 520px) {
     footer {
-        position: absolute;
+        width: 100vw;
+        position: fixed;
         bottom: 0;
+        left: 0;
     }
 }
 
@@ -107,6 +115,9 @@ footer {
     }
 
     body {
+        width: auto;
+        margin-left: 3vw;
+        margin-right: 3vw;
         text-align: left;
     }
 
