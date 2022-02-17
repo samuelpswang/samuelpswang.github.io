@@ -8,7 +8,9 @@
 body {
     /* background properties */
     background-color: var(--background-color);
-    margin: 0;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
     /* font properties */
     font-family: var(--monospace-font);
     color: var(--text-color);
@@ -16,9 +18,8 @@ body {
 
 header {
     margin-bottom: 48px;
-    width: 650px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .header__center-emoji {
@@ -46,10 +47,9 @@ h1 {
 
 main {
     margin-top: 32px;
-    margin-bottom: 96px;
-    width: 650px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 84px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 h2 {
@@ -91,9 +91,8 @@ a:hover{
 }
 
 footer {
-    background-color: mistyrose;
-    padding: 16px 0px 16px 0px;
-    
+    padding: 16px 0 32px 0;
+    margin: auto;
 }
 
 .footer__text {
@@ -103,22 +102,10 @@ footer {
 
 @media only screen and (min-height: 520px) {
     footer {
-        background-color: mistyrose;
         width: 100vw;
         position: fixed;
         bottom: 0;
         left: 0;
-    }
-}
-
-@media only screen and (max-height: 520px) {
-    body {
-        margin-bottom: 0;
-    }
-    footer {
-        background-color: mistyrose;
-        position: inherit;
-        width: 100vw;
     }
 }
 
@@ -128,12 +115,15 @@ footer {
     }
 
     body {
+        width: auto;
+        margin-left: 3vw;
+        margin-right: 3vw;
         text-align: left;
     }
 
     header {
-        margin-left: 8vw;
-        margin-right: 8vw;
+        margin-left: 7vw;
+        margin-right: 5vw;
     }
 
     .header__center-emoji {
@@ -149,8 +139,8 @@ footer {
     }
 
     main {
-        margin-left: 8vw;
-        margin-right: 8vw;
+        margin-left: 7vw;
+        margin-right: 5vw;
     }
 
     a:first-child {
