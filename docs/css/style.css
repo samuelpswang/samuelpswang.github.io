@@ -94,6 +94,11 @@ a:hover{
     color: white;
 }
 
+.main__action-link:hover {
+    background-color: darkred;
+    color: white
+}
+
 .project__br {
     display: none;
 }
