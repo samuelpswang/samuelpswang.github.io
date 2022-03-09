@@ -94,6 +94,11 @@ a:hover{
     color: white;
 }
 
+.banner__link:hover {
+    background-color: darkgoldenrod;
+    color: white
+}
+
 .main__action-link:hover {
     background-color: darkred;
     color: white
